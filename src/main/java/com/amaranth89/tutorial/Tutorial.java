@@ -1,15 +1,21 @@
 package com.amaranth89.tutorial;
 
+import com.amaranth89.tutorial.proxy.IProxy;
+import com.amaranth89.tutorial.reference.Reference;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "Tutorial", name = "Tutorial test mod", version = "1.7.10-1.0")
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class Tutorial
 {
-    @Mod.Instance("Tutorial")
+    @Mod.Instance(Reference.MOD_ID)
     public static Tutorial instance;
+
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)

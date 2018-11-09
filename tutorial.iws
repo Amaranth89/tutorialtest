@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dbdbf4d-ebd3-4c3c-8318-fe36df34d4b8" name="Default Changelist" comment="" />
+    <list default="true" id="6dbdbf4d-ebd3-4c3c-8318-fe36df34d4b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.iws" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,20 +66,21 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
           <entry key="info" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -77,20 +88,20 @@
         <counts>
           <entry key="gradle" value="39" />
           <entry key="info" value="127" />
-          <entry key="java" value="228" />
+          <entry key="java" value="461" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="39" />
-          <entry key="JAVA" value="228" />
+          <entry key="JAVA" value="461" />
           <entry key="PLAIN_TEXT" value="127" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,23 +111,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/IProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/CommonProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/ServerProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/ClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -126,6 +173,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -137,8 +185,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/ServerProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/reference/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java" />
       </list>
     </option>
   </component>
@@ -162,10 +214,43 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tutorial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="tutorial" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="tutorial" type="616d4139:PackageViewModuleNode" />
+              <item name="assets.tutorial" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="tutorial" type="616d4139:PackageViewModuleNode" />
+              <item name="com.amaranth89.tutorial" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="tutorial" type="616d4139:PackageViewModuleNode" />
+              <item name="com.amaranth89.tutorial" type="1f31426a:PackageElementNode" />
+              <item name="proxy" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="tutorial" type="616d4139:PackageViewModuleNode" />
+              <item name="com.amaranth89.tutorial" type="1f31426a:PackageElementNode" />
+              <item name="reference" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +281,14 @@
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -203,22 +296,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tutorial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="tutorial" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="tutorial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="tutorial" type="616d4139:PackageViewModuleNode" />
-              <item name="com.amaranth89.tutorial" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,7 +305,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541461277739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541785675019" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
@@ -331,32 +408,32 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.20726173" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.20726173" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -381,6 +458,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -388,20 +472,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/ClientProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/ServerProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/proxy/IProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amaranth89/tutorial/Tutorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
